@@ -16,10 +16,8 @@ class PasienItem extends StatelessWidget {
         ),
       ),
       onTap: () {
-        Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) => PasienDetail(pasien: pasien)));
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => PasienDetail(pasien: pasien)));
       },
     );
   }
